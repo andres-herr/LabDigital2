@@ -5,7 +5,7 @@ module tb_semaforo;
 
   reg  clk, reset;
   wire [1:0] luz;
-  
+
   semaforo dut (
     .clk(clk),
     .reset(reset),
@@ -20,8 +20,7 @@ module tb_semaforo;
 
     clk   = 0;
     reset = 1;
-
-    #400 $finish;
+    #400 $finish; 
   end
 
 endmodule
