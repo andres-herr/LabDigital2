@@ -3,26 +3,25 @@
 
 module tb_semaforo;
 
-  wire clk, reset, c, luz;
-
-  // Instancia del DUT (Device Under Test)
+  reg  clk, reset;
+  wire [1:0] luz;
+  
   semaforo dut (
     .clk(clk),
     .reset(reset),
-    .c(c),
     .luz(luz)
   );
 
+  always #5 clk = ~clk;
+
   initial begin
-    // Generación del archivo de ondas
     $dumpfile("semaforo.vcd");
     $dumpvars(0, tb_semaforo);
-    clk=0;
-    c=0;
 
-    // Fin de simulación
-    $finish;
+    clk   = 0;
+    reset = 1;
+
+    #400 $finish;
   end
-  always #5 clk = !clk;
 
 endmodule
