@@ -7,7 +7,7 @@ module semaforo(
     localparam amarillo = 2'b01;
     localparam rojo     = 2'b10;
 
-    reg [3:0] cont;   // contador interno de ciclos (antes era "c")
+    reg [3:0] cont;
     reg [1:0] state;
 
     always @(posedge clk) begin
@@ -34,8 +34,6 @@ module semaforo(
                 state <= verde;
                 cont<=1;
             end
-            // Nota: aqui podrias agregar otra transicion amarillo->verde
-            // si tu diseño original tenia 2 tramos de amarillo distintos
         end
     end
 
