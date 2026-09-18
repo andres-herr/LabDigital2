@@ -1,25 +1,31 @@
-# Laboratorio 00  
-## Introducción a Verilog, Simulación y Máquinas de Estados Finitos (FSM)
+# Laboratorio 01  
+## Lab01: FPGA (Zybo Z7), Vivado/Vitis y Validación de Hardware
 
 ---
 
 ## Integrantes
 
-- Nombre completo – DNI
-- Nombre completo – DNI
-- Nombre completo – DNI
+- Juan Sebastián Florez Payares
+- Juan Esteban Barrera Ortiz
+- Carlos Andres Herrera Molina
+- Luciano Manrique Medina
 
-**Grupo de trabajo:**  
+**Grupo de trabajo: 3**  
 **Semestre:** 2026-1  
 
 ---
 
 ## Índice
-- [Diseño implementado](#diseño-implementado)
-- [Simulaciones](#simulaciones)
-- [Implementación](#implementación)
-- [Conclusiones](#conclusiones)
-- [Referencias](#referencias)
+- [Laboratorio 01](#laboratorio-01)
+  - [Lab01: FPGA (Zybo Z7), Vivado/Vitis y Validación de Hardware](#lab01-fpga-zybo-z7-vivadovitis-y-validación-de-hardware)
+  - [Integrantes](#integrantes)
+  - [Índice](#índice)
+  - [Diseño implementado](#diseño-implementado)
+  - [Simulaciones](#simulaciones)
+    - [Evidencias](#evidencias)
+  - [Implementación](#implementación)
+  - [Conclusiones](#conclusiones)
+  - [Referencias](#referencias)
 
 ---
 

@@ -5,21 +5,27 @@
 
 ## Integrantes
 
-- Nombre completo – DNI
-- Nombre completo – DNI
-- Nombre completo – DNI
+- Juan Sebastián Florez Payares
+- Juan Esteban Barrera Ortiz
+- Carlos Andres Herrera Molina
+- Luciano Manrique Medina
 
-**Grupo de trabajo:**  
+**Grupo de trabajo: 3**  
 **Semestre:** 2026-1  
 
 ---
 
 ## Índice
-- [Diseño implementado](#diseño-implementado)
-- [Simulaciones](#simulaciones)
-- [Implementación](#implementación)
-- [Conclusiones](#conclusiones)
-- [Referencias](#referencias)
+- [Laboratorio 00](#laboratorio-00)
+  - [Introducción a Verilog, Simulación y Máquinas de Estados Finitos (FSM)](#introducción-a-verilog-simulación-y-máquinas-de-estados-finitos-fsm)
+  - [Integrantes](#integrantes)
+  - [Índice](#índice)
+  - [Diseño implementado](#diseño-implementado)
+  - [Simulaciones](#simulaciones)
+    - [Evidencias](#evidencias)
+  - [Implementación](#implementación)
+  - [Conclusiones](#conclusiones)
+  - [Referencias](#referencias)
 
 ---
 
