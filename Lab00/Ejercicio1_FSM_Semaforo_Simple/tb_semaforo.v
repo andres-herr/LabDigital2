@@ -20,6 +20,7 @@ module tb_semaforo;
 
     clk   = 0;
     reset = 1;
+    #12 reset = 0;
     #400 $finish; 
   end
 
